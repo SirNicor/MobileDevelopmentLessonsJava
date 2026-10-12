@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BogachLaboratory4</string>
+    <string name = "message">Hello android user!</string>
+    <string name = "test">Test from code</string>
+</resources>
