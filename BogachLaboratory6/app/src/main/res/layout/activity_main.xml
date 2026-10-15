@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/mainEditTextStudyGroup"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="48dp"
+        android:ems="10"
+        android:hint="@string/window0TextViewInputStudyGroup"
+        android:importantForAccessibility="yes"
+        android:inputType="text"
+        android:text="@string/window0TextViewInputStudyGroup"
+        app:layout_constraintBottom_toTopOf="@+id/mainEditTextAge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainTextView2" />
+
+    <EditText
+        android:id="@+id/mainEditTextAge"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="243dp"
+        android:ems="10"
+        android:hint="@string/window0TextViewInputAge"
+        android:importantForAccessibility="yes"
+        android:inputType="text"
+        android:text="@string/window0TextViewInputAge"
+        app:layout_constraintBottom_toTopOf="@+id/mainButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainEditTextStudyGroup" />
+
+    <TextView
+        android:id="@+id/mainTextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/window0TextViewInputFirstName"
+        app:layout_constraintBottom_toTopOf="@+id/mainEditTextFirstName"
+        app:layout_constraintStart_toStartOf="@+id/mainEditTextFirstName" />
+
+    <TextView
+        android:id="@+id/mainTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/window0TextViewInputLastName"
+        app:layout_constraintBottom_toTopOf="@+id/mainEditTextLastName"
+        app:layout_constraintStart_toStartOf="@+id/mainEditTextLastName" />
+
+    <TextView
+        android:id="@+id/mainTextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/window0TextViewInputAge"
+        app:layout_constraintBottom_toTopOf="@+id/mainEditTextAge"
+        app:layout_constraintStart_toStartOf="@+id/mainEditTextAge" />
+
+    <EditText
+        android:id="@+id/mainEditTextFirstName"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="39dp"
+        android:ems="10"
+        android:hint="@string/window0TextViewInputFirstName"
+        android:importantForAccessibility="yes"
+        android:inputType="text"
+        android:text="@string/window0TextViewInputFirstName"
+        app:layout_constraintBottom_toTopOf="@+id/mainEditTextLastName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainTextView0" />
+
+    <EditText
+        android:id="@+id/mainEditTextLastName"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="13dp"
+        android:ems="10"
+        android:hint="@string/window0TextViewInputLastName"
+        android:importantForAccessibility="yes"
+        android:inputType="text"
+        android:text="@string/window0TextViewInputLastName"
+        app:layout_constraintBottom_toTopOf="@+id/mainTextView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainEditTextFirstName" />
+
+    <TextView
+        android:id="@+id/mainTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/window0TextViewInputStudyGroup"
+        app:layout_constraintBottom_toTopOf="@+id/mainEditTextStudyGroup"
+        app:layout_constraintStart_toStartOf="@+id/mainEditTextStudyGroup"
+        app:layout_constraintTop_toBottomOf="@+id/mainEditTextLastName" />
+
+    <Button
+        android:id="@+id/mainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="@string/button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainEditTextAge" />
+
+    <TextView
+        android:id="@+id/mainTextView0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="73dp"
+        android:text="@string/window0TextViewHeader"
+        app:layout_constraintBottom_toTopOf="@+id/mainEditTextFirstName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">BogachLaboratory5</string>
+    <string name = "window0">Первое окно</string>
+    <string name = "window1">Второе окно</string>
+    <string name = "button">Переключение окна</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BogachLaboratory5</string>
+    <string name = "window0TextViewHeader">Ввод данных студента</string>
+    <string name = "window0TextViewInputFirstName">Имя</string>
+    <string name = "window0TextViewInputLastName">Фамилия</string>
+    <string name = "window0TextViewInputStudyGroup">Учебная группа</string>
+    <string name = "window0TextViewInputAge">Возраст</string>
+    <string name = "button">Переключение окна</string>
+</resources>
