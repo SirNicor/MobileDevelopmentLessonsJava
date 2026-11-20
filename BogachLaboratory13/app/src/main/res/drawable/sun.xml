@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<snape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:dither = "true"
+    android:shape = "oval">
+    <gradient
+        android:endColor = "#ffff6600"
+        android:gradienRadius = "150"
+        android:startColor = "ffffcc00"
+        android:useLevel = "false"/>
+    <size
+        android:height = "150dp"
+        android:width = "150dp"/>
+</snape>

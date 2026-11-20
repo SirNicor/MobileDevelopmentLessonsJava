@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BogachLaboratory12</string>
+    <string name="rotateCenter">Вращение относительно центра</string>
+    <string name="rotateCorner">Вращение относительно угла картинки</string>
+</resources>
